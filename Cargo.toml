@@ -1,0 +1,11 @@
+[package]
+name = "snake"
+version = "0.1.0"
+authors = ["dzuvan <hrnjak.jovan1@gmail.com>"]
+
+[dependencies]
+rand = "*"
+[dependencies.sdl2]
+git = "https://github.com/AngryLawyer/rust-sdl2"
+default-features = false
+features = ["ttf","image","gfx","mixer"]
